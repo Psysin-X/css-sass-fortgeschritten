@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.container {
+    width: 75rem;
+    margin: 0px auto;
+}
+.header {
+    height: 40rem;
+    background-image: linear-gradient(-5.71deg, white 49.9%, transparent 50.1%), 
+        url(../images/pexels-benjamin-suter-3617500.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 100%, center center;
+    background-size: 100vw 10vw, cover;
+}
+
+.navi__list-item {
+    list-style-type: none;
+    display: block;
+    float: left;
+    
+}
+
+.navi__list-item-link {
+    color: white;
+    text-decoration: none;
+    padding: .5rem .25rem .25rem .25rem;
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;    
+}
+
+.navi__list-item-link:hover {
+    border-bottom: .2rem solid #00e29c;
+}
+
+.navi__list-item-link--logo:hover {
+    border-bottom: none;
+    color: gray;
+}
+/* logo inkl. SVG Färbung */
+.navi__list-item-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.navi__list-item-logo {
+    fill: currentColor;
+}
